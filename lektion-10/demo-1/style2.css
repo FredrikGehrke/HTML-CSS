@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+:root {
+    --ownPurple: #c781f19c;
+}
+
+body {
+    background: #b7b7b848;
+}
+
+.bg-colorwhite {
+    background: rgba(48, 48, 48, 0.856);
+    box-shadow: 0 0 150px #000;
+}
+
+.bg-own {
+    background-color: rgba(49, 49, 49, 0.979);
+}
+
+.btn-own {
+    background: var(--ownPurple);
+    margin-bottom: 0.5rem;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btn-own:hover {
+    background: #a845e69c;
+    box-shadow: 0 0 3px rgb(243, 243, 243);
+    color: rgb(255, 255, 255);
+}
+
+.user {
+    color: var(--ownPurple);
+    font-size: 5rem;
+    margin-top: -1rem;
+}
+
+.text-color {
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+
+}
+
+.form-border {
+    border-radius: 4px;
+    border: 3px solid #1616165b;
+    padding: 6px;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+#accountReg h1 {
+    font-size: 1.5rem;
+}
+
+#exampleCheck1 {
+    margin-top: 0.45rem;
+}
